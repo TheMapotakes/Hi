@@ -11,7 +11,7 @@
         ScratchExtensions.register(text, descriptor, ext);
     };
     ext.set_status = function(number, text2) {
-        return {status: number, msg: text};
+        return {status: number, msg: text2};
     };
 
     // Block and block menu descriptions
